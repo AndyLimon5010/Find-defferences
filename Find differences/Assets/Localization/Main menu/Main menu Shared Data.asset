@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Main menu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Main menu
+  m_TableCollectionNameGuidString: 0b318b010e898a04faafd745996e59c6
+  m_Entries:
+  - m_Id: 9606467584
+    m_Key: GAME_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70264492032
+    m_Key: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89877057536
+    m_Key: SETTINGS
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5719181553058447392
+  references:
+    version: 2
+    RefIds:
+    - rid: 5719181553058447392
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1705328604192

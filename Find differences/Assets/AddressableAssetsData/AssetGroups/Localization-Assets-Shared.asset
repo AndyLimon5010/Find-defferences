@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9df85894b1349bb4d834ab4a15c62c6e
+  m_SerializeEntries:
+  - m_GUID: 00e5ee5e57881bb4281c3f2bb0d29f6e
+    m_Address: Assets/Localization/Settings menu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b318b010e898a04faafd745996e59c6
+    m_Address: Assets/Localization/Main menu/Main menu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1957626cd20bc66428ec39aaf75e207d
+    m_Address: Assets/Localization/Game scene/Game scene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b863ae234162999418c1d0c0ace28ece
+    m_Address: Assets/Localization/Victory menu/Victory menu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: fb2e5bac0ee76b146a3d6e3e8a41792a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3290943b503f6304294a3c9d2aab1385, type: 2}
+    - {fileID: 11400000, guid: 2bf65f06908894f40a546e87e4bb7bef, type: 2}

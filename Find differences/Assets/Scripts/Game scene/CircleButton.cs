@@ -17,6 +17,9 @@ public class CircleButton : MonoBehaviour
     private Button _myButton;
     private Button _pairButton;
 
+    private RectTransform _myRectTransform;
+    private RectTransform _pairRectTransform;
+
     private void Awake()
     {
         _myImage = GetComponent<Image>();
@@ -24,6 +27,9 @@ public class CircleButton : MonoBehaviour
 
         _myButton = GetComponent<Button>();
         _pairButton = _pair.GetComponent<Button>();
+
+        _myRectTransform = GetComponent<RectTransform>();
+        _pairRectTransform = _pair.GetComponent<RectTransform>();
     }
 
     private void Start()
@@ -38,6 +44,7 @@ public class CircleButton : MonoBehaviour
         if (_imageId == 0)
         {
             transform.localPosition = _pair.transform.localPosition;
+            _myRectTransform.sizeDelta = _pairRectTransform.sizeDelta;
         }
     }
 

@@ -43,7 +43,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 768}
+  m_SizeDelta: {x: 512, y: 512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8922203117123942513
 CanvasRenderer:
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fccf36ace1c3a684888f4618378c56f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e21913b748a9bc94bb9e4a9676ad10d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -299,7 +299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Enabled
@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Enabled
@@ -613,7 +613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Enabled
@@ -774,7 +774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Enabled
@@ -927,7 +927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060794795492246027, guid: 78f91a58740a895468eccf870efe672f, type: 3}
       propertyPath: m_Enabled

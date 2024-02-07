@@ -23,6 +23,9 @@ public class CircleButton : MonoBehaviour
     private RectTransform _myRectTransform;
     private RectTransform _pairRectTransform;
 
+    private ParticleSystem _myParticleSystem;
+    private ParticleSystem _pairParticleSystem;
+
     private void Awake()
     {
         _myImage = GetComponent<Image>();
@@ -33,6 +36,9 @@ public class CircleButton : MonoBehaviour
 
         _myRectTransform = GetComponent<RectTransform>();
         _pairRectTransform = _pair.GetComponent<RectTransform>();
+
+        _myParticleSystem = GetComponent<ParticleSystem>();
+        _pairParticleSystem = _pair.GetComponent<ParticleSystem>();
 
         _pairCircleButton = _pair.GetComponent<CircleButton>();
     }
@@ -71,6 +77,9 @@ public class CircleButton : MonoBehaviour
         Color color = new(_myImage.color.r, _myImage.color.g, _myImage.color.b, 1);
         _myImage.color = color;
         _pairImage.color = color;
+
+        _myParticleSystem.Play();
+        _pairParticleSystem.Play();
 
         _myButton.interactable = false;
         _pairButton.interactable = false;

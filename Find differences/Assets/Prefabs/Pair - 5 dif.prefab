@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4827573217840862622}
   - component: {fileID: 5923636981970533285}
   m_Layer: 5
-  m_Name: Pair
+  m_Name: Pair - 5 dif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,10 +59,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4827573217840862622}
     m_Modifications:
+    - target: {fileID: 625262290958414963, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -127
+      objectReference: {fileID: 0}
+    - target: {fileID: 625262290958414963, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 208
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892193097037928858, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892193097037928858, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -77
+      objectReference: {fileID: 0}
     - target: {fileID: 2202796846362024983, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
       value: 
       objectReference: {fileID: 7880759416358310355}
+    - target: {fileID: 2410979037023571968, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410979037023571968, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -181
+      objectReference: {fileID: 0}
     - target: {fileID: 2712863789045388685, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
       value: 
@@ -159,10 +183,22 @@ PrefabInstance:
       propertyPath: _pair
       value: 
       objectReference: {fileID: 2929396944239465893}
+    - target: {fileID: 6741928357853960204, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6741928357853960204, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 202
+      objectReference: {fileID: 0}
     - target: {fileID: 7094375274878522395, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
       value: 
       objectReference: {fileID: 1277813215344630239}
+    - target: {fileID: 7245411394041681014, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -211,6 +247,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4827573217840862622}
     m_Modifications:
+    - target: {fileID: 625262290958414963, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -127
+      objectReference: {fileID: 0}
+    - target: {fileID: 625262290958414963, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 208
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892193097037928858, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892193097037928858, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -77
+      objectReference: {fileID: 0}
     - target: {fileID: 2202796846362024983, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
       value: 
@@ -218,6 +270,14 @@ PrefabInstance:
     - target: {fileID: 2202796846362024983, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _imageId
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410979037023571968, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410979037023571968, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -181
       objectReference: {fileID: 0}
     - target: {fileID: 2712863789045388685, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
@@ -231,6 +291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3885721886919444185, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ccb7309d0a6bbc4c916b80005cb8134, type: 3}
     - target: {fileID: 3900729652306267239, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -327,6 +391,14 @@ PrefabInstance:
       propertyPath: _imageId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6741928357853960204, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6741928357853960204, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 202
+      objectReference: {fileID: 0}
     - target: {fileID: 7094375274878522395, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _pair
       value: 
@@ -334,6 +406,10 @@ PrefabInstance:
     - target: {fileID: 7094375274878522395, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
       propertyPath: _imageId
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245411394041681014, guid: 8f1482c45e887f043b4c7c48b6e70c72, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -8,8 +8,11 @@ public class CircleButton : MonoBehaviour
     public static Action<int> HintShowed;
 
     [SerializeField] private GameObject _pair;
+    [SerializeField] private GameObject _hint;
     [SerializeField] private int _number;
     [SerializeField] private int _imageId;
+
+    private CircleButton _pairCircleButton;
 
     private Image _myImage;
     private Image _pairImage;
@@ -30,16 +33,18 @@ public class CircleButton : MonoBehaviour
 
         _myRectTransform = GetComponent<RectTransform>();
         _pairRectTransform = _pair.GetComponent<RectTransform>();
+
+        _pairCircleButton = _pair.GetComponent<CircleButton>();
     }
 
     private void Start()
     {
+        _hint.SetActive(false);
+
         Color color = new(_myImage.color.r, _myImage.color.g, _myImage.color.b, 0);
         _myImage.color = color;
-        _pairImage.color = color;
 
         _myButton.interactable = true;
-        _pairButton.interactable = true;
 
         if (_imageId == 0)
         {
@@ -60,6 +65,9 @@ public class CircleButton : MonoBehaviour
 
     public void Handle_ShowCircles()
     {
+        _hint.SetActive(false);
+        _pairCircleButton._hint.SetActive(false);
+
         Color color = new(_myImage.color.r, _myImage.color.g, _myImage.color.b, 1);
         _myImage.color = color;
         _pairImage.color = color;
@@ -75,9 +83,7 @@ public class CircleButton : MonoBehaviour
     {
         if (index + 1 == _number)
         {
-            Color color = new(_myImage.color.r, _myImage.color.g, _myImage.color.b, 0.5f);
-            _myImage.color = color;
-            _pairImage.color = color;
+            _hint.SetActive(true);
             HintShowed?.Invoke(index);
         }
     }

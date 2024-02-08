@@ -21,9 +21,9 @@ public class Hits : MonoBehaviour
 
     private void Handle_StartGame()
     {
-        _count = 3;
+        _count = _animators.Count;
 
-        for (int i = 0; i < _animators.Count; i++)
+        for (int i = 0; i < _count; i++)
         {
             _animators[i].Play("Start");
         }

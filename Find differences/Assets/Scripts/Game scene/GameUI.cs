@@ -1,9 +1,8 @@
-using TMPro;
 using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _scoreText;
+    [SerializeField] private GameObject _countersGo;
 
     private int _differencesCount;
 
@@ -14,14 +13,12 @@ public class GameUI : MonoBehaviour
 
     private void OnEnable()
     {
-        Game.ScoreAdded += Handle_UpdateScoreText;
         Game.GameStarted += Handle_StartGame;
         Pair.DifferencesNumberCalculated += Handle_DifferencesNumberCalculated;
     }
 
     private void OnDisable()
     {
-        Game.ScoreAdded -= Handle_UpdateScoreText;
         Game.GameStarted -= Handle_StartGame;
         Pair.DifferencesNumberCalculated -= Handle_DifferencesNumberCalculated;
     }
@@ -32,18 +29,18 @@ public class GameUI : MonoBehaviour
         {
             DestroyImmediate(transform.GetChild(0).gameObject);
         }
-
         Instantiate(Resources.Load($"Pairs/Pair {GameInfo.ActiveLevel}"), transform);
-    }
-
-    public void Handle_UpdateScoreText(int score)
-    {
-        _scoreText.text = $"{score}/{_differencesCount}";
     }
 
     private void Handle_DifferencesNumberCalculated(int value)
     {
         _differencesCount = value;
-        Handle_UpdateScoreText(0);
+
+        while (_countersGo.transform.childCount > 0)
+        {
+            DestroyImmediate(_countersGo.transform.GetChild(0).gameObject);
+        }
+        Instantiate(Resources.Load($"Counters/Counters - {_differencesCount} dif"),
+            _countersGo.transform);
     }
 }

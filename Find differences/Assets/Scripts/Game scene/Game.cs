@@ -1,11 +1,12 @@
 using System;
-using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using YG;
 
 public class Game : MonoBehaviour
 {
-    public static Action<int> ScoreAdded;
+    public UnityEvent GameEnded;
+
     public static Action GameStarted;
     public static Action GameWon;
     public static Action GameLost;
@@ -38,26 +39,30 @@ public class Game : MonoBehaviour
         _score = 0;
     }
 
+    public void Handl_StartNewLevel()
+    {
+        if (GameInfo.ActiveLevel != GameInfo.ImagesCount)
+        {
+            GameInfo.ActiveLevel++;
+            Handle_StartGame();
+        }
+        else
+        {
+            GameEnded.Invoke();
+        }
+    }
+
     public void Handle_AddScore()
     {
         _score++;
-        ScoreAdded?.Invoke(_score);
         if (_score == _differencesCount)
         {
-            if (GameInfo.ActiveLevel != GameInfo.ImagesCount)
+            if (GameInfo.LastOpenedLevel == GameInfo.ActiveLevel &&
+                GameInfo.ActiveLevel != GameInfo.ImagesCount)
             {
-                GameInfo.ActiveLevel++;
+                GameInfo.LastOpenedLevel++;
+            }
 
-                if (GameInfo.LastOpenedLevel < GameInfo.ActiveLevel)
-                {
-                    GameInfo.LastOpenedLevel = GameInfo.ActiveLevel;
-                }
-            }
-            else
-            {
-                //Временное решение
-                GameInfo.ActiveLevel = 1;
-            }
             GameWon?.Invoke();
         }
     }

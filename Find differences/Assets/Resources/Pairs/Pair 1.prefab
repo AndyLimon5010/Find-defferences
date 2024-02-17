@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -35.399994
       objectReference: {fileID: 0}
+    - target: {fileID: 4160900159118316685, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6ccb7309d0a6bbc4c916b80005cb8134, type: 3}
     - target: {fileID: 4827573217840862622, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -148,6 +152,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -31.7455
       objectReference: {fileID: 0}
+    - target: {fileID: 5923636981970533285, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
+      propertyPath: ImageGo
+      value: 
+      objectReference: {fileID: 4168713055576177799}
     - target: {fileID: 8201322838705158323, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
       propertyPath: m_SizeDelta.x
       value: 83
@@ -177,3 +185,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
+--- !u!1 &4168713055576177799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6421526983546812986, guid: aea3b888869a5d14a8f8c3c1e52fbb11, type: 3}
+  m_PrefabInstance: {fileID: 6973796170686662333}
+  m_PrefabAsset: {fileID: 0}

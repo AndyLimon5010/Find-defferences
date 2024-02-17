@@ -5,6 +5,8 @@ public class Counters : MonoBehaviour
 {
     [SerializeField] private List<Animator> _animators;
 
+    private AudioSource _audioSource;
+
     private int _score;
     
     private void OnEnable()
@@ -19,6 +21,11 @@ public class Counters : MonoBehaviour
         CircleButton.DifferenceFound -= Handle_DifferenceFound;
     }
 
+    private void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
+
     private void Handle_StartGame()
     {
         _score = 0;
@@ -31,6 +38,12 @@ public class Counters : MonoBehaviour
 
     private void Handle_DifferenceFound()
     {
+        if (GameInfo.IsSoundMute == false)
+        {
+            _audioSource.Play();
+
+        }
+
         _animators[_score].Play("Flash");
         _score++;
     }

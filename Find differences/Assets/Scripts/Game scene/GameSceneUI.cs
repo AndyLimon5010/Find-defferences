@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameSceneUI : MonoBehaviour
@@ -32,11 +33,25 @@ public class GameSceneUI : MonoBehaviour
 
     private void Handle_GameWon()
     {
-        _victoryMenu.SetActive(true);
+        StartCoroutine(Timer(true));
     }
 
     private void Handle_GameLost()
     {
-        _defeatMenu.SetActive(true);
+        StartCoroutine(Timer(false));
+    }
+
+    private IEnumerator Timer(bool isVictory)
+    {
+        yield return new WaitForSeconds(0.4f);
+        
+        if (isVictory == true)
+        {
+            _victoryMenu.SetActive(true);
+        }
+        else
+        {
+            _defeatMenu.SetActive(true);
+        }
     }
 }

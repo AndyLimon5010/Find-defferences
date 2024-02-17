@@ -1,4 +1,6 @@
 ﻿
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
+
 namespace YG
 {
     [System.Serializable]
@@ -18,7 +20,7 @@ namespace YG
 
         // Ваши сохранения
 
-        // ...
+        public int LastOpenedLevel = 1;
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
 

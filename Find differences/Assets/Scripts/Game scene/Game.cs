@@ -61,6 +61,9 @@ public class Game : MonoBehaviour
                 GameInfo.ActiveLevel != GameInfo.ImagesCount)
             {
                 GameInfo.LastOpenedLevel++;
+
+                YandexGame.savesData.LastOpenedLevel = GameInfo.LastOpenedLevel;
+                YandexGame.SaveProgress();
             }
 
             GameWon?.Invoke();

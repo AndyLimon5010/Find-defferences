@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d22808661201b7c43882a931467af755
+guid: 08bac63cd25646c4c9b6e3f8e215089c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,22 +136,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hint_0
+      name: Sound on
       rect:
         serializedVersion: 2
-        x: 41
-        y: 43
-        width: 543
-        height: 542
+        x: 122
+        y: 883
+        width: 423
+        height: 429
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8979efb812be72049a79c33205723ece
-      internalID: -1155027540
+      spriteID: f0f5e5edc1505204db14e8dd812cdaf9
+      internalID: 114540046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sound off
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 883
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2c001ac371cd049ae7e756e109c93e
+      internalID: -973093878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Music on
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 883
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67678986ed45d846b5beadf21504a05
+      internalID: 156634204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Music off
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 883
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5e4af6568ab9348852ac38e6c53958
+      internalID: 554965496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 226
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1770a843f06bfe54fb4d2ba24c8b2153
+      internalID: 694764533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hint
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 226
+        width: 546
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba2fda36344e65468a46c148c6e8e4a
+      internalID: -975751550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 226
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442a5554167ae5b43adbc4e49a70de05
+      internalID: 748201251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 226
+        width: 423
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873e8857040dd214dbbe2c64970e808f
+      internalID: -1582102536
       vertices: []
       indices: 
       edges: []
@@ -167,7 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hint_0: -1155027540
+      Hint: -975751550
+      Menu: 694764533
+      Music off: 554965496
+      Music on: 156634204
+      Next: -1582102536
+      Restart: 748201251
+      Sound off: -973093878
+      Sound on: 114540046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

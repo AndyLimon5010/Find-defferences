@@ -11,7 +11,7 @@ public class EndingMenu : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
     }
 
-    private void Start()
+    private void OnEnable()
     {
         if (GameInfo.IsSoundMute == false)
         {

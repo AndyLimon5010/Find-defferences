@@ -10,7 +10,6 @@ public class CircleButton : MonoBehaviour
     [SerializeField] private GameObject _pair;
     [SerializeField] private GameObject _hint;
     [SerializeField] private int _number;
-    [SerializeField] private int _imageId;
 
     private CircleButton _pairCircleButton;
 
@@ -45,11 +44,6 @@ public class CircleButton : MonoBehaviour
         _myImage.color = color;
 
         _myButton.interactable = true;
-
-        if (_imageId == 0)
-        {
-            transform.localPosition = _pair.transform.localPosition;
-        }
     }
 
     private void OnEnable()

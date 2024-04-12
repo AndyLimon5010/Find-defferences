@@ -223,7 +223,6 @@ MonoBehaviour:
   _pair: {fileID: 5386243331610199862}
   _hint: {fileID: 1040129078648904401}
   _number: 4
-  _imageId: 0
 --- !u!199 &3337600110207372514
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5453,7 +5452,6 @@ MonoBehaviour:
   _pair: {fileID: 3863909788775541892}
   _hint: {fileID: 5192954030361097308}
   _number: 3
-  _imageId: 1
 --- !u!199 &4838079957933924802
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10457,10 +10455,10 @@ RectTransform:
   - {fileID: 4001817647016504224}
   m_Father: {fileID: 3695087094266876141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.23076493, y: 0.5785298}
-  m_AnchorMax: {x: 0.74147034, y: 0.6863528}
-  m_AnchoredPosition: {x: -0.7000046, y: -0.20000076}
-  m_SizeDelta: {x: 0.80000305, y: -1}
+  m_AnchorMin: {x: 0.661, y: 0.59758776}
+  m_AnchorMax: {x: 0.8768825, y: 0.7988825}
+  m_AnchoredPosition: {x: 0, y: -0.29997253}
+  m_SizeDelta: {x: -0.66000366, y: -1.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3019867934741077382
 CanvasRenderer:
@@ -10571,7 +10569,6 @@ MonoBehaviour:
   _pair: {fileID: 3749654526231855689}
   _hint: {fileID: 8785811734849757483}
   _number: 2
-  _imageId: 0
 --- !u!199 &2756589667377328622
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -15667,7 +15664,6 @@ MonoBehaviour:
   _pair: {fileID: 8258507820711341815}
   _hint: {fileID: 4593191518406496351}
   _number: 6
-  _imageId: 0
 --- !u!199 &3213611255283820079
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -20616,7 +20612,6 @@ MonoBehaviour:
   _pair: {fileID: 3370227366945905702}
   _hint: {fileID: 8730649454116204195}
   _number: 5
-  _imageId: 1
 --- !u!199 &7627344666508132549
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -25565,7 +25560,6 @@ MonoBehaviour:
   _pair: {fileID: 3369917607286291635}
   _hint: {fileID: 8832928619035368198}
   _number: 5
-  _imageId: 0
 --- !u!199 &5393633428744869119
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -30514,7 +30508,6 @@ MonoBehaviour:
   _pair: {fileID: 7704571914234496551}
   _hint: {fileID: 5514276422630933341}
   _number: 7
-  _imageId: 1
 --- !u!199 &4453000752703421302
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -35525,10 +35518,10 @@ RectTransform:
   - {fileID: 5560583175472041319}
   m_Father: {fileID: 1666402755825074736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22900002, y: 0.5784238}
-  m_AnchorMax: {x: 0.7413513, y: 0.68654245}
-  m_AnchoredPosition: {x: -0.20002747, y: -0.2000122}
-  m_SizeDelta: {x: -0.19999695, y: -1}
+  m_AnchorMin: {x: 0.65900004, y: 0.59111947}
+  m_AnchorMax: {x: 0.8746418, y: 0.79452235}
+  m_AnchoredPosition: {x: 0.9998779, y: 2.199997}
+  m_SizeDelta: {x: -0.66000366, y: -2.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2963266648544494129
 CanvasRenderer:
@@ -35639,7 +35632,6 @@ MonoBehaviour:
   _pair: {fileID: 1578460231878462210}
   _hint: {fileID: 5602380522191570064}
   _number: 2
-  _imageId: 1
 --- !u!199 &7000736292545229547
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -40588,7 +40580,6 @@ MonoBehaviour:
   _pair: {fileID: 1217903807877974656}
   _hint: {fileID: 2724578526096986759}
   _number: 3
-  _imageId: 0
 --- !u!199 &875652658359951373
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -45865,7 +45856,6 @@ MonoBehaviour:
   _pair: {fileID: 434037734899665534}
   _hint: {fileID: 8091650216300811030}
   _number: 4
-  _imageId: 1
 --- !u!199 &898888439938537535
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -51371,7 +51361,6 @@ MonoBehaviour:
   _pair: {fileID: 7617994828872191950}
   _hint: {fileID: 746140318566745518}
   _number: 8
-  _imageId: 1
 --- !u!199 &5482879836930509357
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -56320,7 +56309,6 @@ MonoBehaviour:
   _pair: {fileID: 7549429845362222511}
   _hint: {fileID: 6772334280417925897}
   _number: 1
-  _imageId: 0
 --- !u!199 &8900972672478180694
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -61438,7 +61426,6 @@ MonoBehaviour:
   _pair: {fileID: 7418354156465723392}
   _hint: {fileID: 5436233891366765265}
   _number: 1
-  _imageId: 1
 --- !u!199 &562542951647300021
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -66387,7 +66374,6 @@ MonoBehaviour:
   _pair: {fileID: 7242787880177326645}
   _hint: {fileID: 6609681340248928047}
   _number: 8
-  _imageId: 0
 --- !u!199 &3059914255198384039
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -71336,7 +71322,6 @@ MonoBehaviour:
   _pair: {fileID: 3626202957069257326}
   _hint: {fileID: 8144282635336660859}
   _number: 7
-  _imageId: 0
 --- !u!199 &6427544943282407722
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -76566,7 +76551,6 @@ MonoBehaviour:
   _pair: {fileID: 3249140151174029160}
   _hint: {fileID: 5008583053892386720}
   _number: 6
-  _imageId: 1
 --- !u!199 &2722750156780840719
 ParticleSystemRenderer:
   serializedVersion: 6
